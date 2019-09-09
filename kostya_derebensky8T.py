@@ -94,3 +94,6 @@ def test_push():
     stack.push(3)
     assert (stack.pop() == 3)
 test_push()
+
+def kpc():
+    print('i am kostya')
