@@ -15,6 +15,16 @@ class MyMatrix:
         #Hint: use '\n' for line break
         #raise NotImplementedError
 
+    def norm_wyvod(self,cpicsok):
+        spisok = ""
+        for i in range(len(cpicsok)):
+            for j in range(len(cpicsok[i])):
+                if cpicsok[i][j] == cpicsok[i][-1]:
+                    spisok += str(cpicsok[i][j]) + "\n"
+                else:
+                    spisok += str(cpicsok[i][j]) + " "
+        return spisok
+
     def size(self) -> tuple:
         hight = len(self.__data)
         lenght = len(self.__data[0])
@@ -25,22 +35,11 @@ class MyMatrix:
         flipnuty = copy.deepcopy(self.__data)
         flipnuty[0] = self.__data[1]
         flipnuty[1] = self.__data[0]
-        spisok = ""
-        for i in range(len(flipnuty)):
-            for j in range(len(flipnuty[i])):
-                if flipnuty[i][j] == flipnuty[i][-1]:
-                    spisok += str(flipnuty[i][j]) + "\n"
-                else:
-                    spisok += str(flipnuty[i][j]) + " "
-        return spisok
         #raise NotImplementedError
+        return MyMatrix.norm_wyvod(flipnuty)
 
     def flip_left_right(self):
-        """
-        E.g. modify
-        1, 2, 3, 4   to   4, 3, 2, 1
-        5, 6, 7, 8        8, 7, 6, 5
-        """
+
         raise NotImplementedError
 
     # методы flip_ ИЗМЕНЯЮТ матрицу
