@@ -1,17 +1,20 @@
+import copy
 class MyMatrix:
     def __init__(self, data: list):
-        self.__data = data
+        self.__data = copy.deepcopy(data)
 
     def __repr__(self) -> str:
         spisok = ""
         for i in range(len(self.__data)):
             for j in range(len(self.__data[i])):
-                spisok += str(self.__data[i][j])
+                if self.__data[i][j] == self.__data[i][-1]:
+                    spisok += str(self.__data[i][j]) + "\n"
+                else:
+                    spisok += str(self.__data[i][j]) + " "
         return spisok
         #Hint: use '\n' for line break
         #raise NotImplementedError
-
-
+    
     def size(self) -> tuple:
         """
         Return tuple(height, width) for matrix.
@@ -59,7 +62,7 @@ class MyMatrix:
         Return transposed copy of MyMatrix.
         """
         raise NotImplementedError
-klass = MyMatrix()
+
 datas = [[1,20,3],[23,4,1]]
-klass.__init__(datas)
-print(klass.__repr__())
+klass = MyMatrix(datas)
+print(repr(klass)) # klass.__repr__()
