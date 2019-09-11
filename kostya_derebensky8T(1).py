@@ -1,5 +1,6 @@
 class MyMatrix:
     def __init__(self, data: list):
+        __data = data
         """
         Create matrix of given data.
         Example of data:
