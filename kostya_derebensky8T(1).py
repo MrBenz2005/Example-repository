@@ -1,26 +1,15 @@
 class MyMatrix:
     def __init__(self, data: list):
-        __data = data
-        """
-        Create matrix of given data.
-        Example of data:
-        [
-            [1, 2, 3, 4],
-            [5, 6, 7, 8],
-        ]
-        Return TypeError if data is not list.
-        """
-        raise NotImplementedError
+        self.__data = data
 
     def __repr__(self) -> str:
-        """
-        Return visual presentation of matrix.
-        Example:
-          1  20   3   4
-          5   6 100   8
-        Hint: use '\n' for line break
-        """
-        raise NotImplementedError
+        spisok = ""
+        for i in range(len(self.__data)):
+            for j in range(len(self.__data[i])):
+                spisok += str(self.__data[i][j])
+        return spisok
+        #Hint: use '\n' for line break
+        #raise NotImplementedError
 
 
     def size(self) -> tuple:
@@ -70,3 +59,7 @@ class MyMatrix:
         Return transposed copy of MyMatrix.
         """
         raise NotImplementedError
+klass = MyMatrix()
+datas = [[1,20,3],[23,4,1]]
+klass.__init__(datas)
+print(klass.__repr__())
