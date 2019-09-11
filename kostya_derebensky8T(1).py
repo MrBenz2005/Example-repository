@@ -14,22 +14,26 @@ class MyMatrix:
         return spisok
         #Hint: use '\n' for line break
         #raise NotImplementedError
-    
-    def size(self) -> tuple:
-        """
-        Return tuple(height, width) for matrix.
-        Example: (2, 4)
-        """
-        raise NotImplementedError
 
+    def size(self) -> tuple:
+        hight = len(self.__data)
+        lenght = len(self.__data[0])
+        return hight,lenght
+        #raise NotImplementedError
 
     def flip_up_down(self):
-        """
-        E.g. modify
-        1, 2, 3, 4   to   5, 6, 7, 8
-        5, 6, 7, 8        1, 2, 3, 4
-        """
-        raise NotImplementedError
+        flipnuty = copy.deepcopy(self.__data)
+        flipnuty[0] = self.__data[1]
+        flipnuty[1] = self.__data[0]
+        spisok = ""
+        for i in range(len(flipnuty)):
+            for j in range(len(flipnuty[i])):
+                if flipnuty[i][j] == flipnuty[i][-1]:
+                    spisok += str(flipnuty[i][j]) + "\n"
+                else:
+                    spisok += str(flipnuty[i][j]) + " "
+        return spisok
+        #raise NotImplementedError
 
     def flip_left_right(self):
         """
@@ -66,3 +70,5 @@ class MyMatrix:
 datas = [[1,20,3],[23,4,1]]
 klass = MyMatrix(datas)
 print(repr(klass)) # klass.__repr__()
+print(klass.size())
+print(klass.flip_up_down())
