@@ -39,7 +39,10 @@ class MyMatrix:
         return MyMatrix.norm_wyvod(flipnuty)
 
     def flip_left_right(self):
-
+        razvernuty = copy.deepcoopy(self.__data)
+        for i in range(len(razvernuty)):
+            for j in range(len(razvernuty [i])):
+                 
         raise NotImplementedError
 
     # методы flip_ ИЗМЕНЯЮТ матрицу
