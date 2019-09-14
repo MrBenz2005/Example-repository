@@ -33,21 +33,21 @@ class MyMatrix:
 
     def flip_up_down(self):
         flipnuty = copy.deepcopy(self.__data)
-        flipnuty[0] = self.__data[1]
-        flipnuty[1] = self.__data[0]
-        return self.norm_wyvod(flipnuty)
+        self.__data[0] = flipnuty[1]
+        self.__data[1] = flipnuty[0]
+        return self.norm_wyvod(self.__data)
 
     def flip_left_right(self):
         flipnuty = copy.deepcopy(self.__data)
         spicok = ""
         for i in range(len(flipnuty)):
             for j in range(len(flipnuty[i])):
-                if flipnuty[i][j] == flipnuty[i][-1]:
-                    spicok += str(self.__data[i][-j-1]) + "\n"
+                if self.__data[i][j] == self.__data[i][-1]:
+                    self.__data[i][j] = flipnuty[i][-j-1]
                 else:
-                    spicok += str(self.__data[i][-j-1]) + " "
+                    self.__data[i][j] = flipnuty[i][-j-1]
 
-        return spicok
+        return self.norm_wyvod(self.__data)
 
     # методы flip_ ИЗМЕНЯЮТ матрицу
     # методы flipped_ по сути делают то же самое,
@@ -59,23 +59,21 @@ class MyMatrix:
         raise NotImplementedError
 
     def transpose(self):
-        """
-        E.g. modify
-                          1, 5
-        1, 2, 3, 4   to   2, 6
-        5, 6, 7, 8        3, 7
-                          4, 8
-        """
-        raise NotImplementedError
+        trans = copy.deepcopy(self.__data)
+        spicok = ""
+        for i in range(len(trans)):
+            for j in range(len(trans[i])):
+                spicok += trans[i][j] + ',' + trans[i+1][j]
+
+        return spicok
     def transposed(self):
-        """
-        Return transposed copy of MyMatrix.
-        """
+
         raise NotImplementedError
 
-datas = [[1,20,3],[23,4,1]]
+datas = [[1,2,3],[4,5,6]]
 klass = MyMatrix(datas)
 print(repr(klass)) # klass.__repr__()
 print(klass.size())
 print(klass.flip_up_down())
 print(klass.flip_left_right())
+print(klass.transpose())
