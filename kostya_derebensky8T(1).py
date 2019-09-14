@@ -35,12 +35,19 @@ class MyMatrix:
         flipnuty = copy.deepcopy(self.__data)
         flipnuty[0] = self.__data[1]
         flipnuty[1] = self.__data[0]
-        #raise NotImplementedError
-        return MyMatrix.norm_wyvod(flipnuty)
+        return self.norm_wyvod(flipnuty)
 
     def flip_left_right(self):
+        flipnuty = copy.deepcopy(self.__data)
+        spicok = ""
+        for i in range(len(flipnuty)):
+            for j in range(len(flipnuty[i])):
+                if flipnuty[i][j] == flipnuty[i][-1]:
+                    spicok += str(self.__data[i][-j-1]) + "\n"
+                else:
+                    spicok += str(self.__data[i][-j-1]) + " "
 
-        raise NotImplementedError
+        return spicok
 
     # методы flip_ ИЗМЕНЯЮТ матрицу
     # методы flipped_ по сути делают то же самое,
@@ -71,3 +78,4 @@ klass = MyMatrix(datas)
 print(repr(klass)) # klass.__repr__()
 print(klass.size())
 print(klass.flip_up_down())
+print(klass.flip_left_right())
