@@ -56,18 +56,32 @@ class MyMatrix:
         raise NotImplementedError
 
     def flipped_left_right(self):
-        raise NotImplementedError
+        flipnuty = copy.deepcopy(self.__data)
+        spicok = ""
+        for i in range(len(flipnuty)):
+            for j in range(len(flipnuty[i])):
+                if self.__data[i][j] == self.__data[i][-1]:
+                    flipnuty[i][j] = self.__data[i][-j - 1]
+                else:
+                    flipnuty[i][j] = self.__data[i][-j - 1]
+        return self.norm_wyvod(flipnuty)
+        
 
     def transpose(self):
         trans = copy.deepcopy(self.__data)
         spicok = ""
-        for i in range(len(trans)):
+        for i in range(len(trans) // 2):
             for j in range(len(trans[i])):
-                spicok += trans[i][j] + ',' + trans[i+1][j]
+                spicok += str(trans[0][j]) + ',' + str(trans[1][j]) + "\n"
 
         return spicok
     def transposed(self):
-
+        trans = copy.deepcopy(self.__data)
+        spicok = ""
+        for i in range(len(trans) // 2):
+            for j in range(len(trans[i])):
+                self.__data[i][j] =
+                spicok += str(trans[0][j]) + ',' + str(trans[1][j]) + "\n"
         raise NotImplementedError
 
 datas = [[1,2,3],[4,5,6]]
