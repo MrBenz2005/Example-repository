@@ -65,7 +65,7 @@ class MyMatrix:
                 else:
                     flipnuty[i][j] = self.__data[i][-j - 1]
         return self.norm_wyvod(flipnuty)
-        
+
 
     def transpose(self):
         trans = copy.deepcopy(self.__data)
@@ -80,7 +80,6 @@ class MyMatrix:
         spicok = ""
         for i in range(len(trans) // 2):
             for j in range(len(trans[i])):
-                self.__data[i][j] =
                 spicok += str(trans[0][j]) + ',' + str(trans[1][j]) + "\n"
         raise NotImplementedError
 
