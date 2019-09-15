@@ -53,7 +53,10 @@ class MyMatrix:
     # методы flipped_ по сути делают то же самое,
     # но возвращают изменённую КОПИЮ матрицы
     def flipped_up_down(self):
-        raise NotImplementedError
+        flipnuty = copy.deepcopy(self.__data)
+        flipnuty[0] = self.__data[1]
+        flipnuty[1] = self.__data[0]
+        return self.norm_wyvod(flipnuty)
 
     def flipped_left_right(self):
         flipnuty = copy.deepcopy(self.__data)
@@ -70,7 +73,7 @@ class MyMatrix:
     def transpose(self):
         trans = copy.deepcopy(self.__data)
         spicok = ""
-        for i in range(len(trans) // 2):
+        for i in range(1):
             for j in range(len(trans[i])):
                 spicok += str(trans[0][j]) + ',' + str(trans[1][j]) + "\n"
 
@@ -83,7 +86,7 @@ class MyMatrix:
                 spicok += str(trans[0][j]) + ',' + str(trans[1][j]) + "\n"
         raise NotImplementedError
 
-datas = [[1,2,3],[4,5,6]]
+datas = [[6,5,4],[3,2,1]]
 klass = MyMatrix(datas)
 print(repr(klass)) # klass.__repr__()
 print(klass.size())
