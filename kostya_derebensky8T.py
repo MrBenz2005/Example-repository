@@ -1,99 +1,101 @@
-# https://colab.research.google.com/drive/1YR-D8XJ3uLIHzOy6LW8v-QlN6lO8zTwk
-class MyStack:
-    def __init__(self):
-        self.__data = []
-
-    def is_empty(self) -> bool:
-        mas = self.__data
-        if len(mas) == 0:
-            return True
-        else:
-            return False
-
-        """Check if stack is empty."""
-
-    def size(self) -> int:
-        return len(self.__data)
-
-    def top(self) -> int:
-        return self.__data[-1]
-
-    def pop(self) -> int:
-        last_element = self.__data[-1]
-        self.__data.pop()
-        return last_element
-
-    def push(self, variable: int) -> None:
-        self.__data.append(variable)
-        return None
+import copy
+class MyMatrix:
+    def __init__(self, data: list):
+        self.__data = copy.deepcopy(data)
 
     def __repr__(self) -> str:
-         a = ''
-         for i in range(len(self.__data)):
-             a += str(self.__data[i])
-             a += ','
-         return "MyStack(",a,')'
+        spisok = ""
+        for i in range(len(self.__data)):
+            for j in range(len(self.__data[i])):
+                if self.__data[i][j] == self.__data[i][-1]:
+                    spisok += str(self.__data[i][j]) + "\n"
+                else:
+                    spisok += str(self.__data[i][j]) + " "
+        return spisok
+        #Hint: use '\n' for line break
+        #raise NotImplementedError
 
-        # MyStack(1, 2, 3)
+    def norm_wyvod(self,cpicsok):
+        spisok = ""
+        for i in range(len(cpicsok)):
+            for j in range(len(cpicsok[i])):
+                if cpicsok[i][j] == cpicsok[i][-1]:
+                    spisok += str(cpicsok[i][j]) + "\n"
+                else:
+                    spisok += str(cpicsok[i][j]) + " "
+        return spisok
 
-klass = MyStack()
-print(klass.is_empty())
-x = int(input())
-print(klass.push(x))
-print(klass.push(x+1))
-print(klass.push(x+2))
-print(klass.top())
+    def size(self) -> tuple:
+        hight = len(self.__data)
+        lenght = len(self.__data[0])
+        return hight,lenght
+        #raise NotImplementedError
+
+    def flip_up_down(self):
+        flipnuty = copy.deepcopy(self.__data)
+        self.__data[0] = flipnuty[1]
+        self.__data[1] = flipnuty[0]
+        return self.norm_wyvod(self.__data)
+
+    def flip_left_right(self):
+        flipnuty = copy.deepcopy(self.__data)
+        spicok = ""
+        for i in range(len(flipnuty)):
+            for j in range(len(flipnuty[i])):
+                if self.__data[i][j] == self.__data[i][-1]:
+                    self.__data[i][j] = flipnuty[i][-j-1]
+                else:
+                    self.__data[i][j] = flipnuty[i][-j-1]
+
+        return self.norm_wyvod(self.__data)
+
+    # методы flip_ ИЗМЕНЯЮТ матрицу
+    # методы flipped_ по сути делают то же самое,
+    # но возвращают изменённую КОПИЮ матрицы
+    def flipped_up_down(self):
+        flipnuty = copy.deepcopy(self.__data)
+        flipnuty[0] = self.__data[1]
+        flipnuty[1] = self.__data[0]
+        return self.norm_wyvod(flipnuty)
+
+    def flipped_left_right(self):
+        flipnuty = copy.deepcopy(self.__data)
+        spicok = ""
+        for i in range(len(flipnuty)):
+            for j in range(len(flipnuty[i])):
+                if self.__data[i][j] == self.__data[i][-1]:
+                    flipnuty[i][j] = self.__data[i][-j - 1]
+                else:
+                    flipnuty[i][j] = self.__data[i][-j - 1]
+        return self.norm_wyvod(flipnuty)
+
+
+    def transpose(self):
+        trans = copy.deepcopy(self.__data)
+        spicok = ""
+        for i in range(1):
+            for j in range(len(trans[i])):
+                spicok += str(trans[0][j]) + ',' + str(trans[1][j]) + "\n"
+
+        return spicok
+    def transposed(self):
+        trans = copy.deepcopy(self.__data)
+        res = []
+        n = len(trans)
+        m = len(trans[0])
+        for j in range(m):
+            tmp = []
+            for i in range(n):
+                tmp = tmp + [trans[i][j]]
+            res = res + [tmp]
+        return res
+
+
+
+datas = [[6,5,4],[3,2,1]]
+klass = MyMatrix(datas)
+print(repr(klass)) # klass.__repr__()
 print(klass.size())
-print(klass.is_empty())
-print(klass.pop())
-print(klass.__repr__())
-
-def test_size():
-    stack = MyStack()
-    assert(stack.size() == 0)
-    stack.push(1)
-    assert(stack.size() == 1)
-    stack.push(2)
-    assert(stack.size() == 2)
-    stack.pop()
-    assert(stack.size() == 1)
-test_size()
-
-def test_is_empty():
-    stack = MyStack()
-    assert (stack.size() == 0)
-    stack.push(1)
-    assert (stack.size() == 1)
-    stack.is_empty()
-    stack.pop()
-    stack.is_empty()
-    assert (stack.is_empty() == True)
-test_is_empty()
-
-def test_top():
-    stack = MyStack()
-    stack.push(1)
-    assert (stack.top() == 1)
-    stack.push(2)
-    stack.top()
-    assert (stack.top() == 2)
-test_top()
-
-def test_pop():
-    stack = MyStack()
-    stack.push(1)
-    assert (stack.pop() == 1)
-    stack.push(7)
-    assert (stack.pop() == 7)
-test_pop()
-
-def test_push():
-    stack = MyStack()
-    stack.push(1)
-    assert (stack.top() == 1)
-    stack.push(3)
-    assert (stack.pop() == 3)
-test_push()
-
-def kpc():
-    print('i am kostya')
+print(klass.flip_up_down())
+print(klass.flip_left_right())
+print(klass.transposed())
