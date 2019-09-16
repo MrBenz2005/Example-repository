@@ -4,7 +4,7 @@ class MyStack:
     # чтобы можно было делать
     # matrix3 = matrix1 + matrix2, matrix3 = matrix1 - matrix2
     # если матрицы не одного размера, кидайте ошибку MatrixError с разумным сообщением
-    def __add__(self, other):
+    def __add__(self, matrix, ):
         matrix1 = other
 
         """
@@ -24,10 +24,10 @@ class MyStack:
         # matrix4 -= matrix3
         # Как должны называться эти функции -- вопрос к вам!
 
-    def foo1(self, other):  # change the name!
-        """self += other."""
-        raise NotImplementedError
+    def foo1(self, matrix1, matrix):  # change the name!
 
+
+        for i in range():
     def foo2(self, other):  # change the name!
         """self -= other."""
         raise NotImplementedError
