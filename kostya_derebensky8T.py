@@ -99,3 +99,4 @@ print(klass.size())
 print(klass.flip_up_down())
 print(klass.flip_left_right())
 print(klass.transposed())
+
