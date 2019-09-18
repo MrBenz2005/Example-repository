@@ -1,10 +1,30 @@
-# https://colab.research.google.com/drive/1YR-D8XJ3uLIHzOy6LW8v-QlN6lO8zTwk
-class MyStack:
-    # следующие два метода класса нужны для того,
-    # чтобы можно было делать
-    # matrix3 = matrix1 + matrix2, matrix3 = matrix1 - matrix2
-    # если матрицы не одного размера, кидайте ошибку MatrixError с разумным сообщением
-    def __add__(self,matrix1,matrix2):
+import copy
+class MyMatrix:
+    def __init__(self, matric2: list):
+        self.__data = copy.deepcopy(matric2)
+
+    def __repr__(self) -> str:
+        spisok = ""
+        for i in range(len(self.__data)):
+            for j in range(len(self.__data[i])):
+                if j == 3:
+                    spisok += str(self.__data[i][j]) + "\n"
+                else:
+                    spisok += str(self.__data[i][j]) + " "
+        return spisok
+
+    def norm_wyvod(self,cpicsok):
+        spisok = ""
+        for i in range(len(cpicsok)):
+            for j in range(len(cpicsok[i])):
+                if j == 3:
+                    spisok += str(cpicsok[i][j]) + "\n"
+                else:
+                    spisok += str(cpicsok[i][j]) + " "
+        return spisok
+
+    def __add__(self,matrix2):
+        matrix1 = copy.deepcopy(self.__data)
         matrix3 = []
         rows1 = 0
         rows2 = 0
@@ -36,9 +56,10 @@ class MyStack:
         del matrix1[:]
         for i in matrix3:
             matrix1.append(i)
-        return matrix3
+        return self.norm_wyvod(matrix3)
 
-    def __sub__(self,matrix1,matrix2):
+    def __sub__(self,matrix2):
+        matrix1 = copy.deepcopy(self.__data)
         matrix3 = []
         rows1 = 0
         rows2 = 0
@@ -70,17 +91,12 @@ class MyStack:
         del matrix1[:]
         for i in matrix3:
             matrix1.append(i)
-        return matrix3
-
-
-        # здесь вы должны реализовать ещё два метода,
-        # которые позволяют делать
-        # matrix4 += matrix3
-        # matrix4 -= matrix3
-        # Как должны называться эти функции -- вопрос к вам!
+        return self.norm_wyvod(matrix3)
 
     def foo1(self, matrix1, matrix):  # change the name!
         raise NotImplementedError
+
+
 
 
     def foo2(self, other):  # change the name!
@@ -102,12 +118,21 @@ class MyStack:
 def test_add():
     matric = [[1, 2, 3, 4], [5, 6, 7, 8]]
     matric1 = [[9, 10, 11, 12], [13, 14, 15, 16]]
-    stack = MyStack()
-    assert(stack.__add__(matric,matric1) == [[10, 12, 14, 16], [18, 20, 22, 24]])
-test_add()
+    stack = MyMatrix(matric1)
+    matric3 = stack + matric
+    assert(matric3 == '10 12 14 16','\n','18 20 22 24')
+#test_add()
+
+def test_sub():
+    matric = [[1, 2, 3, 4], [5, 6, 7, 8]]
+    matric1 = [[9, 10, 11, 12], [13, 14, 15, 16]]
+    stack = MyMatrix(matric1)
+    matric3 = stack - matric
+    assert(matric3 == '0 0 0 0','\n','0 0 0 0')
+#test_sub()
 
 def test_foo1():
-    stack = MyStack()
+    stack = MyMatrix()
     assert(stack.size() == 0)
     stack.push(1)
     assert(stack.size() == 1)
@@ -118,7 +143,7 @@ def test_foo1():
 #test_foo1()
 
 def test_foo2():
-    stack = MyStack()
+    stack = MyMatrix()
     assert (stack.size() == 0)
     stack.push(1)
     assert (stack.size() == 1)
@@ -129,7 +154,7 @@ def test_foo2():
 #test_foo2()
 
 def test_foo3():
-    stack = MyStack()
+    stack = MyMatrix()
     stack.push(1)
     assert (stack.top() == 1)
     stack.push(2)
@@ -138,7 +163,7 @@ def test_foo3():
 #test_foo3()
 
 def test_foo4():
-    stack = MyStack()
+    stack = MyMatrix()
     stack.push(1)
     assert (stack.pop() == 1)
     stack.push(7)
@@ -146,7 +171,7 @@ def test_foo4():
 #test_foo4()
 
 def test_push():
-    stack = MyStack()
+    stack = MyMatrix()
     stack.push(1)
     assert (stack.top() == 1)
     stack.push(3)
@@ -155,6 +180,8 @@ def test_push():
 
 matric = [[1,2,3,4], [5,6,7,8]]
 matric1 = [[9,10,11,12], [13,14,15,16]]
-matric3 = []
-k = MyStack()
-print(k.__add__(matric,matric1))
+k = MyMatrix(matric1)
+matric3 = k + matric
+print(matric3)
+matric2 = k - matric1
+print(matric2)
