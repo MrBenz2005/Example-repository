@@ -34,13 +34,15 @@ class MyMatrix:
             for j in range(len(matrix1[i])):
                 columns1 += 1
             rows1 += 1
-        columns1 = int(columns1 / rows1)
+        if columns2 != 0 and rows2 != 0:
+            columns2 = int(columns2 / rows2)
 
         for i in range(len(matrix2)):
             for j in range(len(matrix2[i])):
                 columns2 += 1
             rows2 += 1
-        columns2 = int(columns2 / rows2)
+        if columns2 != 0 and rows2 != 0:
+            columns2 = int(columns2 / rows2)
 
         if columns1 == columns2 and rows1 == rows2:
             if matrix3 != []:
@@ -69,13 +71,15 @@ class MyMatrix:
             for j in range(len(matrix1[i])):
                 columns1 += 1
             rows1 += 1
-        columns1 = int(columns1 / rows1)
+        if columns2 != 0 and rows2 != 0:
+            columns2 = int(columns2 / rows2)
 
         for i in range(len(matrix2)):
             for j in range(len(matrix2[i])):
                 columns2 += 1
             rows2 += 1
-        columns2 = int(columns2 / rows2)
+        if columns2 != 0 and rows2 != 0:
+            columns2 = int(columns2 / rows2)
 
         if columns1 == columns2 and rows1 == rows2:
             if matrix3 != []:
@@ -185,3 +189,6 @@ matric3 = k + matric
 print(matric3)
 matric2 = k - matric1
 print(matric2)
+"""x = MyMatrix([])
+matric3 = x + matric
+print(matric3)"""
