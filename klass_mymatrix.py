@@ -34,8 +34,8 @@ class MyMatrix:
             for j in range(len(matrix1[i])):
                 columns1 += 1
             rows1 += 1
-        if columns2 != 0 and rows2 != 0:
-            columns2 = int(columns2 / rows2)
+        if columns1 != 0 and rows1 != 0:
+            columns1 = int(columns1 / rows1)
 
         for i in range(len(matrix2)):
             for j in range(len(matrix2[i])):
@@ -71,8 +71,8 @@ class MyMatrix:
             for j in range(len(matrix1[i])):
                 columns1 += 1
             rows1 += 1
-        if columns2 != 0 and rows2 != 0:
-            columns2 = int(columns2 / rows2)
+        if columns1 != 0 and rows1 != 0:
+            columns1 = int(columns1 / rows1)
 
         for i in range(len(matrix2)):
             for j in range(len(matrix2[i])):
