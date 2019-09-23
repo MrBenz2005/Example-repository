@@ -97,18 +97,13 @@ class MyMatrix:
             matrix1.append(i)
         return self.norm_wyvod(matrix3)
 
-    def foo1(self, matrix1, matrix):  # change the name!
-        raise NotImplementedError
+    def __iadd__(self, matrix):
+        matrix1 = copy.deepcopy(self.__data)
+        pass
 
 
-
-
-    def foo2(self, other):  # change the name!
-        """self -= other."""
-        raise NotImplementedError
-
-        # этот метод должны позволять ПОЛУЧАТЬ элемент по индексу,
-        # например, print(matrix[1, 2])
+    def __isub__(self, matrix):
+        pass
 
     def foo3(self):  # change the name!
         raise NotImplementedError
@@ -124,7 +119,7 @@ def test_add():
     matric1 = [[9, 10, 11, 12], [13, 14, 15, 16]]
     stack = MyMatrix(matric1)
     matric3 = stack + matric
-    assert(matric3 == '10 12 14 16','\n','18 20 22 24')
+    assert(matric3 == '10 12 14 16\n18 20 22 24')
 #test_add()
 
 def test_sub():
@@ -132,7 +127,7 @@ def test_sub():
     matric1 = [[9, 10, 11, 12], [13, 14, 15, 16]]
     stack = MyMatrix(matric1)
     matric3 = stack - matric
-    assert(matric3 == '0 0 0 0','\n','0 0 0 0')
+    assert(matric3 == '0 0 0 0\n0 0 0 0')
 #test_sub()
 
 def test_foo1():
@@ -187,8 +182,5 @@ matric1 = [[9,10,11,12], [13,14,15,16]]
 k = MyMatrix(matric1)
 matric3 = k + matric
 print(matric3)
-matric2 = k - matric1
+matric2 = k - matric
 print(matric2)
-"""x = MyMatrix([])
-matric3 = x + matric
-print(matric3)"""
