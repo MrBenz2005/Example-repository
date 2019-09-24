@@ -177,10 +177,4 @@ def test_push():
     assert (stack.pop() == 3)
 #test_push()
 
-matric = [[1,2,3,4], [5,6,7,8]]
-matric1 = [[9,10,11,12], [13,14,15,16]]
-k = MyMatrix(matric1)
-matric3 = k + matric
-print(matric3)
-matric2 = k - matric
-print(matric2)
+
