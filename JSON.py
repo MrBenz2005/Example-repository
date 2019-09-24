@@ -31,5 +31,7 @@ unordered_dict = {
     3: "Три",
 }
 with open('unordered_dict.json', 'w') as v_write:
-    json.dump(strange_dict, v_write, ensure_ascii=False, indent=4, sort_keys=True)
-
+    json.dump(unordered_dict, v_write, ensure_ascii=False, indent=4, sort_keys=True)
+with open('timetable_monday.json', 'r') as f_read:
+  timetable_dict = json.load(f_read)
+print(timetable_dict['8l'])
