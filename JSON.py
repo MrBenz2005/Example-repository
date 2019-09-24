@@ -14,4 +14,5 @@ strange_dict = {
         "one": "ONE",
     }
 }
-print(json.dumps(strange_dict,  indent=4))
+print(json.dumps(strange_dict, ensure_ascii=False, indent=4)) # Задание 1.1
+
