@@ -22,7 +22,17 @@ class MyMatrix:
                 else:
                     spisok += str(cpicsok[i][j]) + " "
         return spisok
-
+    
+    def flip_up_down(self):
+        if len(self.__data) > 0:
+            size = int(len(self.__data) / 2)
+            data2 = copy.deepcopy(self.__data)
+            for i in range(size):
+                self.__data[i] = data2[len(data2) - 1 - i]
+                self.__data[len(data2) - 1 - i] = data2[i]
+        else:
+            return MyMatrix([])
+    
     def __add__(self,matrix2):
         matrix1 = copy.deepcopy(self.__data)
         matrix3 = []
