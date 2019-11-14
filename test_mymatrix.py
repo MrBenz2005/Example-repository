@@ -12,9 +12,9 @@ test_add()
 def test_sub():
     matric = [[1, 2, 3, 4], [5, 6, 7, 8]]
     matric1 = [[9, 10, 11, 12], [13, 14, 15, 16]]
-    matrix = MyMatrix(matric)
-    matric3 = matrix - matric1
-    assert(matric3 == '0 0 0 0\n0 0 0 0')
+    matrix = MyMatrix(matric1)
+    matric3 = matrix - matric
+    assert(matric3 == '8 8 8 8\n8 8 8 8')
 test_sub()
 
 def test_iadd():
@@ -44,19 +44,6 @@ def test_repr():
     mymatrix = MyMatrix([[-1, 556], [989, -4]])
     assert (repr(mymatrix) == '-1 556 989 -4 ')
 test_repr()
-
-def test_size():
-    mymatrix = MyMatrix([[1, 2], [3, 4]])
-    mymatrix.flip_up_down()
-    mymatrix.flip_left_right()
-    assert (mymatrix.size() == (2, 2))
-    mymatrix = MyMatrix([[1, 2, 3], [4, 5, 6]])
-    assert (mymatrix.size() == (2, 3))
-    mymatrix = MyMatrix([[-1, 556], [989, -4]])
-    assert (mymatrix.size() == (2, 2))
-    mymatrix = MyMatrix([[], []])
-    assert (mymatrix.size() == (2, 0))
-test_size()
 
 def test_flip_up_down():
     mymatrix = MyMatrix([[1, 2], [3, 4]])
