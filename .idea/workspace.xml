@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="efae29c8-52ca-43ad-bdbe-e032099d8ac7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/kivy.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/klass_mymatrix.py" beforeDir="false" afterPath="$PROJECT_DIR$/klass_mymatrix.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_mymatrix.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_mymatrix.py" afterDir="false" />
     </list>
@@ -22,44 +21,41 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="3" />
+          <entry key="py" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="3" />
+          <entry key="Python" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="231" />
+          <entry key="py" value="292" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="231" />
+          <entry key="Python" value="292" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/klass_mymatrix.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-85">
-              <caret line="103" lean-forward="true" selection-start-line="103" selection-end-line="103" />
+            <state relative-caret-position="2873">
+              <caret line="169" lean-forward="true" selection-start-line="169" selection-end-line="169" />
               <folding>
-                <marker date="1573752673294" expanded="true" signature="1229:1234" ph="..." />
-                <marker date="1573752673294" expanded="true" signature="1664:1669" ph="..." />
-                <marker date="1573752673294" expanded="true" signature="2089:2094" ph="..." />
-                <marker date="1573752673294" expanded="true" signature="2577:2582" ph="..." />
-                <marker date="1573752673294" expanded="true" signature="2885:2890" ph="..." />
-                <marker date="1573752673294" expanded="true" signature="3236:3241" ph="..." />
-                <marker date="1573752673294" expanded="true" signature="3312:3317" ph="..." />
-                <marker date="1573752673294" expanded="true" signature="4419:4424" ph="..." />
-                <marker date="1573752673294" expanded="true" signature="5494:5499" ph="..." />
-                <marker date="1573752673294" expanded="true" signature="5615:5620" ph="..." />
+                <marker date="1573755849987" expanded="true" signature="1081:1086" ph="..." />
+                <marker date="1573755849987" expanded="true" signature="1506:1511" ph="..." />
+                <marker date="1573755849987" expanded="true" signature="1994:1999" ph="..." />
+                <marker date="1573755849987" expanded="true" signature="2318:2323" ph="..." />
+                <marker date="1573755849987" expanded="true" signature="2669:2674" ph="..." />
+                <marker date="1573755849987" expanded="true" signature="4894:4899" ph="..." />
+                <marker date="1573755849987" expanded="true" signature="5015:5020" ph="..." />
               </folding>
             </state>
           </provider>
@@ -68,17 +64,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://D:/Downloads/Telegram Desktop/mymatrix.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="72" column="8" lean-forward="true" selection-start-line="72" selection-start-column="8" selection-end-line="80" selection-end-column="21" />
+            <state relative-caret-position="38">
+              <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_mymatrix.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2325">
-              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+            <state relative-caret-position="-1968">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -96,7 +92,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1390" />
@@ -137,6 +133,27 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.test_mymatrix">
+    <configuration name="klass_mymatrix" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="School_Tasks" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/klass_mymatrix.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test_mymatrix" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="School_Tasks" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -208,12 +225,14 @@
       <item itemvalue="Python tests.pytest for test_mymatrix.test_isub" />
       <item itemvalue="Python tests.pytest for test_mymatrix.test_iadd" />
       <item itemvalue="Python.test_mymatrix" />
+      <item itemvalue="Python.klass_mymatrix" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.test_mymatrix" />
-        <item itemvalue="Python tests.pytest for test_mymatrix.test_iadd" />
         <item itemvalue="Python tests.pytest for test_mymatrix.test_isub" />
+        <item itemvalue="Python tests.pytest for test_mymatrix.test_iadd" />
+        <item itemvalue="Python.klass_mymatrix" />
         <item itemvalue="Python tests.pytest for test_mymatrix.test_transposed" />
       </list>
     </recent_temporary>
@@ -232,12 +251,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_mymatrix_test_transposed - 2019.11.14 at 20h 21m 14s.xml">
-      <configuration name="pytest for test_mymatrix.test_transposed" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_mymatrix_test_isub - 2019.11.14 at 20h 23m 06s.xml">
-      <configuration name="pytest for test_mymatrix.test_isub" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_for_test_mymatrix_test_isub - 2019.11.14 at 20h 24m 17s.xml">
       <configuration name="pytest for test_mymatrix.test_isub" configurationId="tests" />
     </history-entry>
@@ -255,6 +268,18 @@
     </history-entry>
     <history-entry file="pytest_for_test_mymatrix_test_iadd - 2019.11.14 at 20h 33m 52s.xml">
       <configuration name="pytest for test_mymatrix.test_iadd" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_mymatrix_test_iadd - 2019.11.14 at 20h 54m 13s.xml">
+      <configuration name="pytest for test_mymatrix.test_iadd" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_mymatrix_test_iadd - 2019.11.14 at 20h 54m 21s.xml">
+      <configuration name="pytest for test_mymatrix.test_iadd" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_mymatrix_test_iadd - 2019.11.14 at 21h 16m 30s.xml">
+      <configuration name="pytest for test_mymatrix.test_iadd" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_mymatrix_test_isub - 2019.11.14 at 21h 17m 45s.xml">
+      <configuration name="pytest for test_mymatrix.test_isub" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -286,36 +311,40 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test_mymatrix.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2325">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Downloads/Telegram Desktop/mymatrix.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="72" column="8" lean-forward="true" selection-start-line="72" selection-start-column="8" selection-end-line="80" selection-end-column="21" />
+        <state relative-caret-position="132">
+          <caret line="309" selection-start-line="309" selection-end-line="309" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/klass_mymatrix.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-85">
-          <caret line="103" lean-forward="true" selection-start-line="103" selection-end-line="103" />
+        <state relative-caret-position="2873">
+          <caret line="169" lean-forward="true" selection-start-line="169" selection-end-line="169" />
           <folding>
-            <marker date="1573752673294" expanded="true" signature="1229:1234" ph="..." />
-            <marker date="1573752673294" expanded="true" signature="1664:1669" ph="..." />
-            <marker date="1573752673294" expanded="true" signature="2089:2094" ph="..." />
-            <marker date="1573752673294" expanded="true" signature="2577:2582" ph="..." />
-            <marker date="1573752673294" expanded="true" signature="2885:2890" ph="..." />
-            <marker date="1573752673294" expanded="true" signature="3236:3241" ph="..." />
-            <marker date="1573752673294" expanded="true" signature="3312:3317" ph="..." />
-            <marker date="1573752673294" expanded="true" signature="4419:4424" ph="..." />
-            <marker date="1573752673294" expanded="true" signature="5494:5499" ph="..." />
-            <marker date="1573752673294" expanded="true" signature="5615:5620" ph="..." />
+            <marker date="1573755849987" expanded="true" signature="1081:1086" ph="..." />
+            <marker date="1573755849987" expanded="true" signature="1506:1511" ph="..." />
+            <marker date="1573755849987" expanded="true" signature="1994:1999" ph="..." />
+            <marker date="1573755849987" expanded="true" signature="2318:2323" ph="..." />
+            <marker date="1573755849987" expanded="true" signature="2669:2674" ph="..." />
+            <marker date="1573755849987" expanded="true" signature="4894:4899" ph="..." />
+            <marker date="1573755849987" expanded="true" signature="5015:5020" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Downloads/Telegram Desktop/mymatrix.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_mymatrix.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1968">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
