@@ -5,14 +5,18 @@ class MyMatrix:
         self.__data = copy.deepcopy(data)
 
     def __repr__(self) -> str:
-        spisok = ""
+        data_str = ''
         for i in range(len(self.__data)):
             for j in range(len(self.__data[i])):
-                if j == 3:
-                    spisok += str(self.__data[i][j]) + "\n"
-                else:
-                    spisok += str(self.__data[i][j]) + " "
-        return spisok
+                if j < 0:
+                    data_str += str(self.__data[i][j]) + ' '
+                if j == 0:
+                    data_str += str(self.__data[i][j])
+                if j > 0:
+                    data_str += ' ' + str(self.__data[i][j])
+                if i != len(self.__data) - 1 and j+1 == len(self.__data[i]):
+                    data_str += '\n'
+        return data_str
 
     def norm_wyvod(self, cpicsok):
         spisok = ""
@@ -26,30 +30,6 @@ class MyMatrix:
 
     def size(self) -> tuple:
         return len(self.__data), len(self.__data[0])
-
-
-    def flip_up_down(self):
-        if len(self.__data) > 0:
-            size = int(len(self.__data) / 2)
-            data2 = copy.deepcopy(self.__data)
-            for i in range(size):
-                self.__data[i] = data2[len(data2) - 1 - i]
-                self.__data[len(data2) - 1 - i] = data2[i]
-        else:
-            return MyMatrix([])
-
-
-    def flip_left_right(self):
-        if len(self.__data) > 0:
-            size = int(len(self.__data[0]) / 2)
-            data2 = copy.deepcopy(self.__data)
-            for i in range(len(self.__data)):
-                for j in range(size):
-                    self.__data[i][j] = data2[i][len(data2[i]) - 1 - j]
-                    self.__data[i][len(data2[i]) - 1 - i] = data2[i][j]
-        else:
-            return MyMatrix([])
-
 
     def flipped_up_down(self):
         if len(self.__data) > 0:
@@ -79,12 +59,15 @@ class MyMatrix:
 
 
     def transpose(self):
-        if (len(self.__data) != 0):
-            data = [[] for i in range(len(self.__data[0]))]
-            for i in range(len(self.__data[0])):
-                for j in range(len(self.__data)):
-                    data[i].append(self.__data[j][i])
-            self.__data = data
+        transposed_data = []
+        datac = self.__data
+        for j in range(len(datac[0])):
+            tmp = []
+            for i in range(len(datac)):
+                tmp += [datac[i][j]]
+            transposed_data += [tmp]
+        self.__data = transposed_data
+        return self.__data
 
 
     def transposed(self):
@@ -101,10 +84,9 @@ class MyMatrix:
     def data(self):
         return copy.deepcopy(self.__data)
 
-
     def __add__(self, matrix2):
         matrix1 = copy.deepcopy(self.__data)
-        matrix3 =[]
+        matrix3 = []
         rows1 = 0
         rows2 = 0
         columns1 = 0
@@ -112,16 +94,16 @@ class MyMatrix:
         for i in range(len(matrix1)):
             for j in range(len(matrix1[i])):
                 columns1 += 1
-                rows1 += 1
-                if columns1 != 0 and rows1 != 0:
-                    columns1 = int(columns1 / rows1)
+            rows1 += 1
+        if columns1 != 0 and rows1 != 0:
+            columns1 = int(columns1 / rows1)
 
         for i in range(len(matrix2)):
             for j in range(len(matrix2[i])):
                 columns2 += 1
-                rows2 += 1
-            if columns2 != 0 and rows2 != 0:
-                columns2 = int(columns2 / rows2)
+            rows2 += 1
+        if columns2 != 0 and rows2 != 0:
+            columns2 = int(columns2 / rows2)
 
         if columns1 == columns2 and rows1 == rows2:
             if matrix3 != []:
@@ -138,7 +120,6 @@ class MyMatrix:
         for i in matrix3:
             matrix1.append(i)
         return self.norm_wyvod(matrix3)
-
 
     def __sub__(self, matrix2):
         matrix1 = copy.deepcopy(self.__data)
@@ -186,9 +167,6 @@ class MyMatrix:
     def __iadd__(self, other):
         self.__data = (MyMatrix(self.__data) + other).data()
         return self.__data
-
-A = MyMatrix
-
 
 
 
