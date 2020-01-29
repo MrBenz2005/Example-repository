@@ -4,8 +4,8 @@ class My_class():
         for i in range(50):
             self.table.append([])
 
-    def __len__(self):
-        
+    def __len__(self, hashka_tab):
+        counter = len(hashka_tab)
 
 
     def add(self, value):
