@@ -4,6 +4,9 @@ class My_class():
         for i in range(50):
             self.table.append([])
 
+    def __len__(self):
+        
+
 
     def add(self, value):
         a = hash(value) % len(self.table)
