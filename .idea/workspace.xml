@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="81f277db-25f8-4e7d-804a-2bd000a8698a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/JSON.py" beforeDir="false" afterPath="$PROJECT_DIR$/JSON.py" afterDir="false" />
     </list>
+=======
+    <list default="true" id="efae29c8-52ca-43ad-bdbe-e032099d8ac7" name="Default Changelist" comment="" />
+>>>>>>> baed1f6f2ee3a8d120538fc27dadb8e5e3bed7c0
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,44 +18,95 @@
     <session id="2119237362">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+<<<<<<< HEAD
           <entry key="project.closed" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.opened" value="1" />
+=======
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.opened" value="5" />
+>>>>>>> baed1f6f2ee3a8d120538fc27dadb8e5e3bed7c0
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+<<<<<<< HEAD
           <entry key="py" value="10" />
+=======
+          <entry key="py" value="14" />
+>>>>>>> baed1f6f2ee3a8d120538fc27dadb8e5e3bed7c0
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+<<<<<<< HEAD
           <entry key="Python" value="10" />
+=======
+          <entry key="Python" value="14" />
+>>>>>>> baed1f6f2ee3a8d120538fc27dadb8e5e3bed7c0
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+<<<<<<< HEAD
           <entry key="py" value="1172" />
+=======
+          <entry key="dummy" value="19" />
+          <entry key="py" value="1257" />
+>>>>>>> baed1f6f2ee3a8d120538fc27dadb8e5e3bed7c0
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+<<<<<<< HEAD
           <entry key="Python" value="1172" />
+=======
+          <entry key="PLAIN_TEXT" value="19" />
+          <entry key="Python" value="1257" />
+>>>>>>> baed1f6f2ee3a8d120538fc27dadb8e5e3bed7c0
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../cinema/cinemaparse/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="6" selection-start-column="6" selection-end-column="6" />
+=======
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Sheets_Api.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+              <folding>
+                <marker date="1579679204748" expanded="true" signature="102:103" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/another_name.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
+              </folding>
+>>>>>>> baed1f6f2ee3a8d120538fc27dadb8e5e3bed7c0
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../cinema/cinemaparse/core.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -59,6 +114,17 @@
               <caret selection-end-line="30" selection-end-column="37" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hashaka.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <marker date="1580288290280" expanded="true" signature="17:22" ph="..." />
+                <marker date="1580288290280" expanded="true" signature="172:204" ph="..." />
+                <marker date="1580288290280" expanded="true" signature="225:379" ph="..." />
+>>>>>>> baed1f6f2ee3a8d120538fc27dadb8e5e3bed7c0
               </folding>
             </state>
           </provider>
@@ -79,10 +145,20 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/.pytest_cache/Olimpiada.py" />
         <option value="$PROJECT_DIR$/Olimpiada.py" />
         <option value="$PROJECT_DIR$/../cinema/cinemaparse/__init__.py" />
         <option value="$PROJECT_DIR$/../cinema/cinemaparse/core.py" />
+=======
+        <option value="$PROJECT_DIR$/klass_mymatrix.py" />
+        <option value="$PROJECT_DIR$/test_mymatrix.py" />
+        <option value="D:/Downloads/Telegram Desktop/8 задание (2).py" />
+        <option value="$PROJECT_DIR$/Sheets_Api.py" />
+        <option value="$USER_HOME$/Desktop/8 задание.py" />
+        <option value="$PROJECT_DIR$/EGOR_PIDOR.py" />
+        <option value="$PROJECT_DIR$/hashaka.py" />
+>>>>>>> baed1f6f2ee3a8d120538fc27dadb8e5e3bed7c0
       </list>
     </option>
   </component>
@@ -97,18 +173,26 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="Scope" />
+=======
+>>>>>>> baed1f6f2ee3a8d120538fc27dadb8e5e3bed7c0
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="School_Tasks" type="b2602c69:ProjectViewProjectNode" />
+<<<<<<< HEAD
               <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+=======
+              <item name="School_Tasks" type="462c0819:PsiDirectoryNode" />
+>>>>>>> baed1f6f2ee3a8d120538fc27dadb8e5e3bed7c0
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -116,6 +200,20 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../cinema/cinemaparse/core.py" />
     <property name="settings.editor.selected.configurable" value="RSettings" />
   </component>
+=======
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="RSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Downloads\Telegram Desktop" />
+    </key>
+  </component>
+>>>>>>> baed1f6f2ee3a8d120538fc27dadb8e5e3bed7c0
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -128,8 +226,12 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Python.core">
     <configuration name="Olimpiada" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+  <component name="RunManager" selected="Python.EGOR_PIDOR">
+    <configuration name="EGOR_PIDOR" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="School_Tasks" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -141,7 +243,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Olimpiada.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Kostya\Documents\GitHub\School_Tasks\hashaka.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -150,7 +252,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="core" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="klass_mymatrix" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> baed1f6f2ee3a8d120538fc27dadb8e5e3bed7c0
       <module name="School_Tasks" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -158,11 +261,15 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../cinema/cinemaparse" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../cinema/cinemaparse/core.py" />
+<<<<<<< HEAD
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Olimpiada.py" />
+=======
+      <option name="SCRIPT_NAME" value="C:\Users\Kostya\Documents\GitHub\School_Tasks\Sheets_Api.py" />
+>>>>>>> baed1f6f2ee3a8d120538fc27dadb8e5e3bed7c0
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -171,6 +278,40 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
+    <configuration name="core" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration name="test_mymatrix" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> baed1f6f2ee3a8d120538fc27dadb8e5e3bed7c0
+      <module name="School_Tasks" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+<<<<<<< HEAD
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../cinema/cinemaparse" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../cinema/cinemaparse/core.py" />
+=======
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_mymatrix.py" />
+>>>>>>> baed1f6f2ee3a8d120538fc27dadb8e5e3bed7c0
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+<<<<<<< HEAD
     <list>
       <item itemvalue="Python.Olimpiada" />
       <item itemvalue="Python.core" />
@@ -179,6 +320,52 @@
       <list>
         <item itemvalue="Python.core" />
         <item itemvalue="Python.Olimpiada" />
+=======
+    <configuration name="pytest for test_mymatrix.test_iadd" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="School_Tasks" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_mymatrix.test_iadd&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_mymatrix.test_isub" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="School_Tasks" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_mymatrix.test_isub&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python tests.pytest for test_mymatrix.test_isub" />
+      <item itemvalue="Python tests.pytest for test_mymatrix.test_iadd" />
+      <item itemvalue="Python.test_mymatrix" />
+      <item itemvalue="Python.klass_mymatrix" />
+      <item itemvalue="Python.EGOR_PIDOR" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.EGOR_PIDOR" />
+        <item itemvalue="Python.test_mymatrix" />
+        <item itemvalue="Python tests.pytest for test_mymatrix.test_isub" />
+        <item itemvalue="Python tests.pytest for test_mymatrix.test_iadd" />
+        <item itemvalue="Python.klass_mymatrix" />
+>>>>>>> baed1f6f2ee3a8d120538fc27dadb8e5e3bed7c0
       </list>
     </recent_temporary>
   </component>
@@ -187,6 +374,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
       <changelist id="81f277db-25f8-4e7d-804a-2bd000a8698a" name="Default Changelist" comment="" />
       <created>1571817337520</created>
       <option name="number" value="Default" />
@@ -199,10 +387,57 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.19463088" />
+=======
+      <changelist id="efae29c8-52ca-43ad-bdbe-e032099d8ac7" name="Default Changelist" comment="" />
+      <created>1573747797489</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573747797489</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="pytest_for_test_mymatrix_test_isub - 2019.11.14 at 20h 24m 17s.xml">
+      <configuration name="pytest for test_mymatrix.test_isub" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_mymatrix_test_iadd - 2019.11.14 at 20h 24m 49s.xml">
+      <configuration name="pytest for test_mymatrix.test_iadd" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_mymatrix_test_iadd - 2019.11.14 at 20h 27m 45s.xml">
+      <configuration name="pytest for test_mymatrix.test_iadd" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_mymatrix_test_iadd - 2019.11.14 at 20h 28m 01s.xml">
+      <configuration name="pytest for test_mymatrix.test_iadd" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_mymatrix_test_iadd - 2019.11.14 at 20h 31m 41s.xml">
+      <configuration name="pytest for test_mymatrix.test_iadd" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_mymatrix_test_iadd - 2019.11.14 at 20h 33m 52s.xml">
+      <configuration name="pytest for test_mymatrix.test_iadd" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_mymatrix_test_iadd - 2019.11.14 at 20h 54m 13s.xml">
+      <configuration name="pytest for test_mymatrix.test_iadd" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_mymatrix_test_iadd - 2019.11.14 at 20h 54m 21s.xml">
+      <configuration name="pytest for test_mymatrix.test_iadd" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_mymatrix_test_iadd - 2019.11.14 at 21h 16m 30s.xml">
+      <configuration name="pytest for test_mymatrix.test_iadd" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_mymatrix_test_isub - 2019.11.14 at 21h 17m 45s.xml">
+      <configuration name="pytest for test_mymatrix.test_isub" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18590604" />
+>>>>>>> baed1f6f2ee3a8d120538fc27dadb8e5e3bed7c0
       <window_info id="Structure" order="1" side_tool="true" weight="0.24966443" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.3295302" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Run" order="2" weight="0.28322148" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -210,6 +445,15 @@
       <window_info anchor="bottom" id="Version Control" order="6" weight="0.32624114" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32907802" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+=======
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.82550335" weight="0.29929078" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="6" sideWeight="0.49932885" visible="true" weight="0.32624114" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32907802" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50067115" side_tool="true" visible="true" weight="0.32624114" />
+>>>>>>> baed1f6f2ee3a8d120538fc27dadb8e5e3bed7c0
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.32907802" />
       <window_info anchor="bottom" id="TODO" order="10" weight="0.32765958" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -223,6 +467,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -269,6 +514,77 @@
           <caret selection-end-line="30" selection-end-column="37" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
+=======
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="309" selection-start-line="309" selection-end-line="309" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_mymatrix.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="28" column="41" selection-start-line="2" selection-end-line="28" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Downloads/Telegram Desktop/mymatrix.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Downloads/Telegram Desktop/8 задание (2).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="65" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Downloads/Telegram Desktop/8 задание (3).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Jpgeshka1.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Jpgeshka.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/8 задание.py" />
+    <entry file="file://$PROJECT_DIR$/another_name.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hashaka.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <marker date="1580288290280" expanded="true" signature="17:22" ph="..." />
+            <marker date="1580288290280" expanded="true" signature="172:204" ph="..." />
+            <marker date="1580288290280" expanded="true" signature="225:379" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sheets_Api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+          <folding>
+            <marker date="1579679204748" expanded="true" signature="102:103" ph="..." />
+>>>>>>> baed1f6f2ee3a8d120538fc27dadb8e5e3bed7c0
           </folding>
         </state>
       </provider>
