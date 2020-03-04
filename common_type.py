@@ -2,23 +2,19 @@ def get_common_type(type1: type, type2: type) -> type:
     if type1 == str:
         return str
 
-    if type1 == list and type2 == range or type2 == tuple or type2 == list :
+    if type1 == bool:
+        return type2
+
+    if type1 == type2:
+        return type1
+
+    if type1 == list and type2 == range or type2 == tuple:
         return list
     else:
         return str
 
-    if type1 == tuple and type2 == tuple or type2 == range:
-        return tuple
-    else:
+    if type1 == range:
         return str
-
-    if type1 == range and type2 == range:
-        return range
-    else:
-        return str
-
-    if type1 == bool:
-        return type2
 
     if type1 == float and type2 == complex:
         return complex
