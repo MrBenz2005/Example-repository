@@ -1,3 +1,4 @@
+"""Kostya Derebensky"""
 from copy import deepcopy
 
 class LifeGame:
