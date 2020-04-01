@@ -42,22 +42,22 @@ class LifeGame:
                     count += 1
             if self.array[x][y + 1] == 1:
                 count += 1
-        """ЕСЛИ КЛЕТКА НЕ НА КРАЯХ"""
+        """ЕСЛИ КЛЕТКА В ЛЕВОМ НИЖНЕМ УГЛУ"""
         if y == 0 and x == self.height:
             for j in range(self.array[self.height - 1][y], self.array[self.height - 1][y + 1]):
                 if j == 1:
                     count += 1
             if self.array[self.height][y + 1] == 1:
                 count += 1
-        """ЕСЛИ КЛЕТКА НЕ НА КРАЯХ"""
+        """ЕСЛИ КЛЕТКА В ПРАВОМ НИЖНЕМ УГЛУ"""
         if x == self.height and y == self.length:
             for j in range(self.array[self.height - 1][self.length - 1], self.array[self.height - 1][self.length]):
                 if j == 1:
                     count += 1
             if self.array[self.height][self.length - 1] == 1:
                 count += 1
-        """ЕСЛИ КЛЕТКА НЕ НА КРАЯХ"""
-        if y != 0 and x == self.height:
+        """ЕСЛИ КЛЕТКА В ПРАВОМ ВЕРХНЕМ УГЛУ"""
+        if y == self.length and x == 0:
             for j in range(self.array[x - 1][y - 1], self.array[x - 1][y + 1]):
                 if j == 1:
                     count += 1
