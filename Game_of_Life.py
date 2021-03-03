@@ -20,7 +20,7 @@ class LifeGame:
                 if self.array[i][j] == 0:
                     if num == 3:
                         self.array[i][j] = 1
-
+        return self.array
 
     def _number_of_neighbours(self, x, y):
         count = 0
